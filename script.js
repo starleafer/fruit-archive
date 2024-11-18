@@ -11,7 +11,7 @@ window.renderArchive = () => {
         data-color="${fruit.color}"
         style="background-color: white;"
       >
-        <img src="${fruit.image}" alt="${fruit.name}" class="fruit-image" />
+        <img src="https://via.placeholder.com/200x150?text=Fruit" alt="${fruit.name}" class="fruit-image" />
         <h2 class="fruit-name" style="color: ${fruit.color}">${fruit.name}</h2>
       </div>
       `
@@ -42,7 +42,7 @@ window.renderSingleFruit = (id) => {
   <div class="single-fruit-card">
     <h2 class="fruit-name">${fruit.name}</h2>
       <div class="single-card-content">
-        <img src="${fruit.image}" alt="${fruit.name}" class="single-fruit-image" />
+        <img src="https://via.placeholder.com/200x150?text=Fruit" alt="${fruit.name}" class="single-fruit-image" />
         <div class="info-container">
         <p class="info">${fruit.info}</p>
         </div>

@@ -84,6 +84,7 @@ html {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 5px rgba(112, 96, 96, 0.815);
+  background-color: white;
 }
 
 .single-card-content {
